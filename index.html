@@ -57,7 +57,7 @@
 
 <h3>Sign up!</h3>
 <p>
-    Name
+    <!-- Name
     <br>
     Email
     <br>
@@ -66,11 +66,32 @@
     <button>Sanfrancisco</button>
     <br>
     Gender
-    Female   Male
+    Female   Male -->
+    <label for="username">Name</label>
+    <input type="text" name="username" id="username">
+    <br>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+    <br>
+    <label for="location">Location</label>
+    <select name="location" id="location">
+        <option value="0">San-francisco</option>
+        <option value="1">Washington</option>
+        <option value="2">California</option>
+        <option value="3">Texas</option>
+    </select> 
+    <br>
+    <span>Gender</span>
+    <br>
+    <label for="erkak">Erkak</label>
+    <input type="radio" name="gender" value="male">
+    <label for="ayol">Ayol</label>
+    <input type="radio" name="gender" value="female">
+    <br>
+    <label for="tajriba">Experience</label>
+    <br>
+    <textarea name="about"  id="tajriba"></textarea>
 
-<br>
-
-Experince
 <br>
 
 <button>Sign Up</button>
